@@ -1,0 +1,38 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('dark.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1, h2, h3, p, a {
+  color: #FDFDFD;
+  text-align: center;
+}
+
+.centerbox {
+  width: 550px;
+  border: 1px solid white;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+.social {
+  margin: 10px auto;
+}
+
+.social a i {
+  margin: 5px;
+}
+  
