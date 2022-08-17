@@ -1,0 +1,29 @@
+.container{
+    width: 1080px;
+    margin: 0 auto;
+    display: block;
+}
+.box{
+    padding: 50px;
+    background-color: blue;
+    margin: 10px;
+    width: 250px;
+    height: 230px;
+    float: left;
+    border-radius: 50%;
+}
+@media (max-width: 700px) {
+    .box{
+        background-color: green;
+        border-radius: 50%;
+    }
+    .container{
+        width: 100px;
+    }
+}
+@media(max-width:400px){
+    .box{
+        background-color: red;
+        border-radius: 50%;
+    }
+}
